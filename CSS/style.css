@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+.intro, .other {
+    padding: 40px;
+}
+
+.works{
+    display: grid;
+    gap: 60px;
+    max-width: 50%;
+}
+
+.cards{
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.work-item {
+    display: flex;
+    flex-direction: column;
+}
+.work-item h3, .other-item h3 {
+    margin: 0;
+
+}
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.work1{
+display: flex;
+flex-direction: column;
+}
+
+
+
+
